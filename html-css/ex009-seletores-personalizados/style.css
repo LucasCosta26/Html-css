@@ -1,0 +1,14 @@
+@charset "UTF-8";
+body{
+    background-color: rgb(0, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+}
+#t1{color:white;
+font-size:xx-large;
+background-color: black;
+}
+h1{ }    
+.para{
+    color: khaki;
+}
+

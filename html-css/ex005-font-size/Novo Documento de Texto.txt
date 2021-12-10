@@ -1,0 +1,3 @@
+shorthando (tradução = forma abreviada) 
+
+Coloca a tag 'shorthand font' que deve ser preenchida da seguinte forma: font-style => font-weight => font-size => font-family; Essa é a arodem que você deve preencher

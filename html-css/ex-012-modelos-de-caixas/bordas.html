@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bordas</title>
+    <style>
+        h1{
+            
+            background-color: aqua;
+            height: 40px;
+            width: 130px;
+            /* weight (altura) e width(largura) são os tamanhos, e onde está indexado nesse exercicio desrespeita ao tamanho da caixa do H1*/
+            
+            border-style: double;
+            border-color: red ;
+            border-width: 10px;
+
+            /* Você pode simplificar as bordas colocando assim: border: double red 10px*/
+
+            padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+            /* O mesmo vale para aqui, mas lembre-se que ele ira se orientar como um relogio para imputar os valores dados
+            
+            ex: padding 10px 10px 10px 10px*/
+
+            margin: auto;
+            margin-top: 20px;
+            margin-right: 20px;
+            margin-bottom: 10px;
+            margin-left: 20px;
+
+            outline-width: 10px;
+            outline-style: dashed;
+            outline-color: blueviolet;
+        }
+        a{
+            border-style: solid;
+            border-width: 0.5px;;
+        }
+        p{
+            padding-top: 10px;
+            padding-left: 10px;
+           
+        }
+    </style>
+    
+</head>
+<body>
+    <h1>Box level</h1>
+    <p>Parágrafos também são exemplos de box-level, mas os <a href="@"> links são exemplos de box inline-level</a> vamos ver como tudo isso funciona na prática.</p>
+    
+</body>
+</html>
